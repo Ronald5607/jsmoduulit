@@ -10,7 +10,7 @@ for (let i = 0; i < tests; i++) {
         let rand = Math.floor(Math.random() * 6) + 1;
         summa += rand;
     }
-    if (summa == SUM) times++;
+    if (summa === SUM) times++;
 }
 
 const PROB = times/tests * 100;

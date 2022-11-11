@@ -3,20 +3,20 @@ let name2 = prompt('What is your name?');
 
 const RAND = Math.floor(Math.random() * 4);
 
-function print_to_html(room) {
+function to_HTML(room) {
     document.querySelector('#potter').innerHTML = name2 + ' , you are ' + room + '.';
 }
 switch (RAND) {
     case 0:
-        print_to_html('Daredevil');
+        to_HTML('Daredevil');
         break;
     case 1:
-        print_to_html('Slytherin');
+        to_HTML('Slytherin');
         break;
     case 2:
-        print_to_html('Hufflepuff');
+        to_HTML('Hufflepuff');
         break;
     case 3:
-        print_to_html('Ravenclaw');
+        to_HTML('Ravenclaw');
         break;
 }
