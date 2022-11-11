@@ -6,9 +6,9 @@ do {
         numbers[i] = num;
         i++;
     } else {
-        alert('Number you gave was not an integer.')
+        alert('Number you gave was not an integer.');
     }
-} while (i < 3)
+} while (i < 3);
 const sum = numbers.reduce((partial, x) => partial + x, 0);
 const product = numbers.reduce((partial, x) => partial * x, 1);
 const average = sum / 3;

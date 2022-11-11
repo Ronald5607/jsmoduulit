@@ -1,10 +1,10 @@
 
-// const name = prompt('What is your name?');
+let name2 = prompt('What is your name?');
 
 const RAND = Math.floor(Math.random() * 4);
 
 function print_to_html(room) {
-    document.querySelector('#potter').innerHTML = NAME + ' , you are ' + room + '.';
+    document.querySelector('#potter').innerHTML = name2 + ' , you are ' + room + '.';
 }
 switch (RAND) {
     case 0:

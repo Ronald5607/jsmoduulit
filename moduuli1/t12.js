@@ -1,9 +1,9 @@
 'use strict';
 console.log('I\'m printing to console!');
 
-const NAME = prompt('Give name: ');
+let name = prompt('Give name: ');
 
-document.querySelector('#target').innerHTML = 'Good morning, ' + NAME + '!';
+document.querySelector('#target').innerHTML = 'Good morning, ' + name + '!';
 
 
 
